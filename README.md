@@ -9,5 +9,5 @@ Got a question? For UK support email ecommerce@evopayments.com.
 ## Installation Guides
 
 For instructions on how to install the plugin on PrestaShop please use the following links:
-* [PrestaShop 1.6](https://github.com/EVO-Payments-UK/Prestashop_plugin/wiki/PrestaShop-1.6)
-* [PrestaShop 1.7](https://github.com/EVO-Payments-UK/Prestashop_plugin/wiki/PrestaShop-1.7)
+* [PrestaShop 1.6](https://github.com/EVO-Payments-UK/Prestashop/wiki/Prestashop-1.6)
+* [PrestaShop 1.7](https://github.com/EVO-Payments-UK/Prestashop/wiki/Prestashop-1.7)
