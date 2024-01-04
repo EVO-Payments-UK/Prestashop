@@ -26,12 +26,12 @@ class EVOPaymentsPaymentModuleFrontController extends ModuleFrontController
         $this->ssl = true;
         $this->evopayments = new EVOPayments();
         $this->evopayments->initEVOConfig();
+		//it's safe to use MD5 here
         $this->merchantCode = substr(md5(uniqid(mt_rand(), true)), 0, 20);
         $this->url = Payments\Config::$BaseUrl;
         $this->mapStatuses = EVOPayments::MAP_STATUSES;
         $this->merchantId = Payments\Config::$MerchantId;
         $this->jsUrl = Payments\Config::$JavaScriptUrl;        
-//        PrestaShopLogger::addLog( 'EVOPaymentsPaymentModuleFrontController - 1 POSTPROCESS'. json_encode( $_REQUEST));
     }
 
     public function initContent()
